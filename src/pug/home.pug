@@ -3,20 +3,20 @@ body
         header 
             .header__left
                 .header__logo
-                    img(src="./assets/img/", alt="Pivdenny Online Logo")
+                    img(src="./assets/svg/logo_header.svg", alt="Pivdenny Online Logo Header")
                 .header__text
                     h3 Завантажуйте новий
                     h1.greentext Pivdenny Online
                     p Здійснювати перекази, купувати валюту, поповнювати мобільний та керувати фінансами – легко!
                 .header__buttons
                     .googleplaybutton
-                        img(src="./assets/svg/", alt="Google Play Market Pivdenny Online") 
+                        img(src="./assets/svg/googleplaybadge.svg", alt="Google Play Market Pivdenny Online") 
                     .applestorebutton
-                        img(src="./assets/svg/", alt="App Store Pivdenny Online")
+                        img(src="./assets/svg/appstorebadge.svg", alt="App Store Pivdenny Online")
             .header_right
                     .header__phones
-                        img(src="./assets/img/", alt="")
-                        img(src="./assets/img/", alt="")
+                        img(src="./assets/img/header_phones.png", alt="Header Phones")
+        
         main
             section#features
                 .features__container
@@ -25,70 +25,192 @@ body
                         .features__table-left
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon1.svg", alt="Features Icon 1")
                                 .features__text 
                                     h3 Грошові перекази
                                     p Перекази і платежі між картками та між рахунками безкоштовно 
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon2.svg", alt="Features Icon 2")
                                 .features__text 
                                     h3 Вигідний курс
                                     p Купівля доларів і євро з розміщенням на депозит 
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon3.svg", alt="Features Icon 3")
                                 .features__text 
                                     h3 Поповнення мобільного
                                     p Ваші улюблені мобільні оператори в застосунку поповнюються без комісії 
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon4.svg", alt="Features Icon 4")
                                 .features__text 
                                     h3 Обмін валют
                                     p Просто у застосунку та БЕЗКОШТОВНО 
                         .features__table-right
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon5.svg", alt="Features Icon 5")
                                 .features__text 
                                     h3 Швидке повторення операцій
                                     p Збереження карток для швидкого доступу до повторних операцій 
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon6.svg", alt="Features Icon 6")
                                 .features__text 
                                     h3 Безпечний вхід
                                     p Безпечний логін за допомогою біометричних даних 
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon7.svg", alt="Features Icon 7")
                                 .features__text 
                                     h3 Повний контроль над операціями 
                                     p Зрозуміла історія операцій за картковими рахунками та квитанції за транзакціями 
                             .features__list-item 
                                 .features__icon
-                                    img(src="./assets/svg/", alt="")
+                                    img(src="./assets/svg/features_icon8.svg", alt="Features Icon 8")
                                 .features__text 
                                     h3 Нічого не пропускайте
                                     p Push-повідомлення для підтвердження та інформування щодо операцій 
+            
             section#blockicons
+                .blockicons__container 
+                    .blockicons__left
+                        .blockicons__list-item 
+                            .blockicons__icon
+                                img(src="./assets/svg/blockicons_icon1.svg", alt="Block Icons 1")
+                            .blockicons__text 
+                                h3 Активація картки 
+                                p Швидкий старт користування карткою  
+                        .blockicons__list-item 
+                            .blockicons__icon
+                                img(src="./assets/svg/blockicons_icon2.svg", alt="Block Icons 2")
+                            .blockicons__text 
+                                h3 Встановлення PIN-коду 
+                                p Жодних банкоматів - все Online
+                        .blockicons__list-item 
+                            .blockicons__icon
+                                img(src="./assets/svg/blockicons_icon3.svg", alt="Block Icons 3")
+                            .blockicons__text 
+                                h3 Блокування та розблокування 
+                                p Гроші на рахунку у безпеці
+                        .blockicons__list-item 
+                            .blockicons__icon
+                                img(src="./assets/svg/blockicons_icon4.svg", alt="Block Icons 4")
+                            .blockicons__text 
+                                h3 Управління лімітами 
+                                p Встановити, зняти, змінити – легко!
+                    .blockicons__right 
+                        .blockicons__background 
+                        .blockicons__phoneimg 
+                            img(src="./assets/img/blockicons_phone.png", alt="Phone")
+                        .blockicons__pin 
+                            img(src="./assets/svg/blockicons_pincode.svg", alt="PIN Code")
+                        .blockicons__toggle 
+                            .blockicons__toggle_lock 
+                                img(src="./assets/svg/blockicons_lock.svg", alt="Lock")
+                            .blockicons__toggle_text 
+                                p.toggletext Заблокувати картку
+                            .blockicons__toggle-switch
+                                .onoffswitch
+                                    input#myonoffswitch.onoffswitch-checkbox(type='checkbox' name='onoffswitch' tabindex='0' checked='')
+                                    label.onoffswitch-label(for='myonoffswitch')
+
             section#blockdeposites
-            section#blockewallets
-            section#onlinesupport
-            section#connect 
-            section#video  
+                .blockdeposites__container 
+                    .blockdeposites__left 
+                        .blockdeposites__background
+                        img(src="./assets/img/blockdeposites_phone.png", alt="Phone Deposit")
+                        img(src="./assets/img/blockdeposites_overlay.png", alt="Overlay")
+                    .blockdeposites__right 
+                        .blockdeposites__text 
+                            p.greentext Валютний депозит
+                            h2 Купуйте і зберігайте долари та євро вигідно
+                            p У застосунку курс вигідніший, ніж у касі банку. Валюта завжди в наявності - жодних черг і незручностей. Ми безпечно зберігатимемо гроші протягом 3-х місяців та ще й віддячимо відсотками.
+            
+            section#blockwallets
+                .blockwallets__container 
+                    .blockwallets__left 
+                        .blockwallets__text 
+                            p.greentext Електронні гаманці
+                            h2 Apple Pay та онлайн покупки
+                            p Відтепер ваш iPhone – не тільки улюблений гаджет, але і платіжний інструмент! Додавайте картку до гаманця Apple Pay у Pivdenny Online - і з легкістю розраховуйтесь у магазинах та Інтернеті.
+                    .blockwallets__right 
+                        .blockwallets__background
+                        img(src="./assets/img/blockwallets_phone.png", alt="Phone Wallet")
+                        img(src="./assets/img/blockwallets_overlay.png", alt="Overlay")
+            
+            section#blocksupport
+                .blocksupport__container 
+                    .blocksupport__left 
+                        .blocksupport__background
+                        img(src="./assets/img/blocksupport_phone.png", alt="Online Support")
+                        img(src="./assets/img/blocksupport_overlay.png", alt="Overlay")
+                    .blocksupport__right 
+                        .blocksupport__text 
+                            p.greentext Підтримка онлайн
+                            h2 Оперативне вирішення будь-яких питань
+                            p Cлужба підтримки Pivdenny Online завжди на зв’язку в чатах Viber, Telegram і Facebook Messenger.
+            
+            section#connect
+                .connect__container 
+                    .connectblock 
+                        .connectnumber 
+                            h1.greentext 1
+                            h3 Встановити
+                            p Завантажуйте застосунок з Apple Store або Google Play на свій смартфон.
+                            img(src="./assets/img/connectblock_left.png", alt="Connect Step 1")
+                    .connectblock 
+                        .connectnumber 
+                            h1.greentext 2
+                            h3 Ввести номер
+                            p Додайте ваш номер телефону, зареєстрований в банку
+                            img(src="./assets/img/connectblock_center.png", alt="Connect Step 2")
+                    .connectblock 
+                        .connectnumber 
+                            h1.greentext 3
+                            h3 Додати картку
+                            p Додайте активовану платіжну картку банку «Південний»
+                            img(src="./assets/img/connectblock_right.png", alt="Connect Step 3")      
+          
+            section#video
+                .video__container
+                    .video__head 
+                        h2 Розібратися – легко!
+                        p Але якщо все ж таки щось не вийшло – ось вам трохи відео
+                    .video__slider 
+                        .video__carousel
+                            div
+                                img(src="./assets/img/video_preview.png", alt="Video Cover")
+                                .video__playbutton
+                                    img(src="./assets/svg/video_playbutton.svg", alt="Play Video")
+                            div
+                                img(src="./assets/img/video_preview.png", alt="Video Cover")
+                                .video__playbutton
+                                    img(src="./assets/svg/video_playbutton.svg", alt="Play Video")
+                            div
+                                img(src="./assets/img/video_preview.png", alt="Video Cover")
+                                .video__playbutton
+                                    img(src="./assets/svg/video_playbutton.svg", alt="Play Video")
+                            div
+                                img(src="./assets/img/video_preview.png", alt="Video Cover")
+                                .video__playbutton
+                                    img(src="./assets/svg/video_playbutton.svg", alt="Play Video")
+                            div
+                                img(src="./assets/img/video_preview.png", alt="Video Cover")
+                                .video__playbutton
+                                    img(src="./assets/svg/video_playbutton.svg", alt="Play Video")
         footer
             .footer__container 
                 .footer__left
                     .footer__left-graph
                         .footer__logo
-                            img(src="./assets/img/", alt="")
+                            img(src="./assets/svg/logo_footer.svg", alt="Pivdenny Logo Footer")
                         .footer__buttons 
                             .googleplaybutton
-                                img(src="./assets/svg/", alt="Google Play Market Pivdenny Online") 
+                                img(src="./assets/svg/googleplaybadge.svg", alt="Google Play Market Pivdenny Online") 
                             .applestorebutton
-                                img(src="./assets/svg/", alt="App Store Pivdenny Online")
+                                img(src="./assets/svg/appstorebadge.svg", alt="App Store Pivdenny Online")
                     .footer__left-descr 
                         p.description © 2022. Банк «Південний»
                 .footer__right

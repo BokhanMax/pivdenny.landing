@@ -79,6 +79,10 @@ th:not([align]) {
   text-align: inherit;
 }
 
+body {
+  background: #F5F5F5;
+}
+
 #pagewrapper {
   margin: 0 80px;
   max-width: 1366px;
@@ -134,4 +138,63 @@ h3 {
 
 .greentext {
   color: #00A599;
+}
+
+.toggletext {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.267013px;
+  color: #171C21;
+}
+
+/* Toggle Switch */
+.onoffswitch {
+  position: relative;
+  width: 44px;
+  -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  height: 24px;
+  padding: 0;
+  line-height: 24px;
+  border: 2px solid #E3E3E3;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  transition: background-color 0.3s ease-in;
+}
+
+.onoffswitch-label:before {
+  content: "";
+  display: block;
+  width: 24px;
+  margin: 0px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 18px;
+  border: 2px solid #E3E3E3;
+  border-radius: 24px;
+  transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+  background-color: #E35766;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  border-color: #E35766;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  right: 0px;
 }
