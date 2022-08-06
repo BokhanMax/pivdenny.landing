@@ -10,17 +10,21 @@ body
                     p Здійснювати перекази, купувати валюту, поповнювати мобільний та керувати фінансами – легко!
                 .header__buttons
                     .googleplaybutton
-                        img(src="./assets/svg/googleplaybadge.svg", alt="Google Play Market Pivdenny Online") 
+                        a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny") 
+                            img(src="./assets/svg/googleplaybadge.svg", alt="Google Play Market Pivdenny Online") 
                     .applestorebutton
-                        img(src="./assets/svg/appstorebadge.svg", alt="App Store Pivdenny Online")
-            .header_right
+                        a(href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk") 
+                            img(src="./assets/svg/appstorebadge.svg", alt="App Store Pivdenny Online")
+            .header__right
+                    .header__right-background
                     .header__phones
                         img(src="./assets/img/header_phones.png", alt="Header Phones")
         
         main
             section#features
                 .features__container
-                    h2 Легко отримуйте максимум від банкінгу
+                    .features__header
+                        h2 Легко отримуйте максимум від банкінгу
                     .features__table 
                         .features__table-left
                             .features__list-item 
@@ -208,9 +212,11 @@ body
                             img(src="./assets/svg/logo_footer.svg", alt="Pivdenny Logo Footer")
                         .footer__buttons 
                             .googleplaybutton
-                                img(src="./assets/svg/googleplaybadge.svg", alt="Google Play Market Pivdenny Online") 
+                                a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny") 
+                                    img(src="./assets/svg/googleplaybadge.svg", alt="Google Play Market Pivdenny Online") 
                             .applestorebutton
-                                img(src="./assets/svg/appstorebadge.svg", alt="App Store Pivdenny Online")
+                                a(href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk") 
+                                    img(src="./assets/svg/appstorebadge.svg", alt="App Store Pivdenny Online")
                     .footer__left-descr 
                         p.description © 2022. Банк «Південний»
                 .footer__right
