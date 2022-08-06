@@ -79,10 +79,27 @@ th:not([align]) {
   text-align: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #pagewrapper {
   margin: 0 auto;
   padding: 0 160px;
   max-width: 1366px;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #00A599;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
 }
 
 body {
@@ -155,7 +172,7 @@ header {
 }
 
 .header__logo {
-  margin-bottom: 190px;
+  margin-bottom: 25%;
 }
 
 .header__text {
@@ -243,7 +260,6 @@ footer {
   display: none;
 }
 
-/* Toggle Switch */
 .onoffswitch {
   position: relative;
   width: 44px;
