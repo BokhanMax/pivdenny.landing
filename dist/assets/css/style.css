@@ -162,6 +162,10 @@ h3 {
   color: #171C21;
 }
 
+a {
+  color: #5B646B;
+}
+
 a:hover {
   color: #006E6A;
 }
@@ -224,7 +228,6 @@ header {
 footer {
   background: #F5F6F7;
   padding: 40px 48px 32px 48px;
-  margin-bottom: 25%;
 }
 
 .footer__container {
