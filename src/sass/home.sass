@@ -231,20 +231,22 @@
     content: url("data:image/svg+xml,%3Csvg width='12' height='20' viewBox='0 0 12 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.48815 0.821529C-0.162724 1.4724 -0.162724 2.52768 0.48815 3.17855L7.30964 10L0.488149 16.8215C-0.162725 17.4724 -0.162725 18.5277 0.488149 19.1786C1.13902 19.8294 2.1943 19.8294 2.84517 19.1786L10.8452 11.1786C11.496 10.5277 11.496 9.4724 10.8452 8.82153L2.84517 0.821529C2.1943 0.170656 1.13902 0.170656 0.48815 0.821529Z' fill='white'/%3E%3C/svg%3E%0A")
 .slick-dots
     bottom: -60px!important
+    display: flex!important
+
 .slick-dots li
-    width: 302px!important
+    width: 100%!important
     margin: 0 7px!important
 .square
-    height: 6px
-    width: 302px
+    height: 8px
     background-color: #F5F6F7
 .slick-active > .square
     background-color: #DCDFE0
-    height: 6px
-    width: 302px
+    height: 8px
 .slick-dots li button:before
     background-color: #FFC425
     height: 10px
     width: 10px
     text-indent: -9999px
     overflow:hidden
+.slick-prev:hover, .slick-next:hover
+    background: #006E6A

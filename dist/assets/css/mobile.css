@@ -133,6 +133,72 @@
     width: 28px;
   }
 
+  .blockdeposites__container {
+    flex-direction: column;
+  }
+
+  .blockdeposites__left, .blockdeposites__right {
+    width: 100%;
+  }
+
+  .blockdeposites__right {
+    margin-top: 25%;
+  }
+
+  .blockdeposites__overlaypic {
+    right: -11px;
+    bottom: 60px;
+    left: 24px;
+  }
+
+  .blockwallets__container {
+    flex-direction: column-reverse;
+  }
+
+  .blockwallets__left, .blockwallets__right {
+    width: 100%;
+  }
+
+  .blockwallets__right {
+    text-align: inherit;
+  }
+
+  .blockwallets__left {
+    margin-top: 25%;
+  }
+
+  .blockwallets__background {
+    left: 60px;
+  }
+
+  .blockwallets__overlaypic {
+    right: -10px;
+  }
+
+  .blockwallets__text > p {
+    margin-right: 0;
+  }
+
+  .blocksupport__container {
+    flex-direction: column;
+  }
+
+  .blocksupport__left, .blocksupport__right {
+    width: 100%;
+  }
+
+  .blocksupport__right {
+    margin-top: 25%;
+  }
+
+  .blocksupport__overlaypic {
+    left: 10px;
+  }
+
+  .blocksupport__text > p {
+    margin-right: 0;
+  }
+
   .connect__blocks {
     flex-direction: column;
   }
@@ -152,6 +218,36 @@
 
   .connect__text > h3 {
     margin-bottom: 6px;
+  }
+
+  .video__slider {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .slick-dots {
+    display: flex !important;
+    bottom: -38px !important;
+  }
+
+  .slick-dots li {
+    width: 100px !important;
+    margin: 0 4px !important;
+  }
+
+  .video__playbutton {
+    top: 46px;
+    right: 80px;
+  }
+
+  .slick-next {
+    right: -47px;
+    bottom: 6%;
+  }
+
+  .slick-prev {
+    left: -47px;
+    top: -6%;
   }
 
   footer {
