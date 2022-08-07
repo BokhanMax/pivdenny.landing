@@ -133,6 +133,27 @@
     width: 28px;
   }
 
+  .connect__blocks {
+    flex-direction: column;
+  }
+
+  .connect__container > h2 {
+    margin-bottom: 15%;
+  }
+
+  .connect__block {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .connect__text-left, .connect__text-center, .connect__text-right {
+    margin-bottom: 63px;
+  }
+
+  .connect__text > h3 {
+    margin-bottom: 6px;
+  }
+
   footer {
     padding: 24px 32px;
   }
