@@ -28,3 +28,27 @@ $(document).ready(function(){
     }
   });
 });
+
+
+// Animate
+
+if ('IntersectionObserver' in window) {
+	let iObserver = new IntersectionObserver(function(entries) {
+		entries.forEach(function (currentValue, index) {
+			if (currentValue.isIntersecting === true) {
+				let cont = $(currentValue.target);
+				if (!cont.hasClass('js--loaded')) {
+								cont.addClass('js--loaded');
+					cont.css('opacity', '1');
+				}
+			}
+		})
+	}, {threshold: [0]});
+
+	$('div').each(function () {
+		$(this).css('opacity', '0').css('transition', 'opacity 1s');
+		iObserver.observe(this);
+	});
+} else {
+	// по старинке
+}

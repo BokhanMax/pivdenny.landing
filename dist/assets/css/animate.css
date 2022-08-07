@@ -1,0 +1,68 @@
+.header__phones {
+        position: absolute;
+        width: 506px;
+        height: 704px;
+        z-index: 100;
+        -webkit-animation: bounce-down 3.6s linear infinite;
+        animation: bounce-down 3.6s linear infinite;
+ 
+        img {
+             position: absolute;
+        }
+ }
+@-webkit-keyframes bounce-down {
+       25% {
+            -webkit-transform: translateY(-10px);
+       }
+       50%, 100% {
+            -webkit-transform: translateY(0);
+       }
+       75% {
+            -webkit-transform: translateY(10px);
+       }
+}
+@keyframes bounce-down {
+        25% {
+             transform: translateY(-10px);
+        }
+        50%, 100% {
+             transform: translateY(0);
+        }
+        75% {
+             transform: translateY(10px);
+        }
+}
+
+.blockicons__phoneimg, .blockicons__pin, .blockicons__toggle, .blockwallets__phoneimg, .blockwallets__overlaypic {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.blockicons__phoneimg:hover, .blockicons__pin:hover, .blockwallets__phoneimg:hover {
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+.blockwallets__overlaypic:hover, .blockicons__toggle:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.blockdeposites__phoneimg, .blockdeposites__overlaypic, .blocksupport__phoneimg, .blocksupport__overlaypic {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.blockdeposites__phoneimg:hover, .blocksupport__phoneimg:hover {
+  -webkit-transform: translateX(7px);
+  transform: translateX(7px);  
+}
+
+.blockdeposites__overlaypic:hover, .blocksupport__overlaypic:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
