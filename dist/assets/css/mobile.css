@@ -4,9 +4,18 @@
     line-height: 44px;
   }
 
+  h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
   h3 {
     font-size: 18px;
     line-height: 22px;
+  }
+
+  p {
+    font-size: 15px;
   }
 
   header {
@@ -51,6 +60,77 @@
     width: 330px;
     height: 300px;
     top: 4em;
+  }
+
+  .features__header {
+    margin-bottom: 12%;
+  }
+
+  .features__table {
+    flex-direction: column;
+  }
+
+  .features__table-left, .features__table-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .features__list-item {
+    margin-bottom: 10%;
+  }
+
+  .features__table-left > .features__list-item:first-child {
+    margin-bottom: 10%;
+  }
+
+  .features__table-left > .features__list-item:last-child {
+    margin-top: 0;
+  }
+
+  .blockicons__container {
+    flex-direction: column-reverse;
+    padding-top: 25%;
+  }
+
+  .blockicons__left, .blockicons__right {
+    width: 100%;
+  }
+
+  .blockicons__right {
+    margin-bottom: 45%;
+  }
+
+  .blockicons__pin {
+    display: none;
+  }
+
+  .blockicons__background {
+    position: relative;
+    width: 345px;
+    height: 287px;
+    border-radius: 18px;
+    left: 0;
+    top: 10px;
+  }
+
+  .blockicons__phoneimg {
+    left: 105px;
+    bottom: -80px;
+    right: inherit;
+  }
+
+  .blockicons__toggle {
+    bottom: 27px;
+    left: 22px;
+    padding: 8px 12px;
+  }
+
+  .blockicons__toggle_text {
+    margin: 0 34px 0 9px;
+  }
+
+  .blockicons__toggle_lock {
+    width: 28px;
   }
 
   footer {

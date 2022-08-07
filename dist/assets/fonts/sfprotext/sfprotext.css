@@ -1,0 +1,19 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(sfprotext.woff) format('woff2');
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(sfprotext.woff) format('woff2');
+}
