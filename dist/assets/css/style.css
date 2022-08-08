@@ -182,6 +182,7 @@ header {
 
 .header__logo {
   margin-bottom: 25%;
+  width: 60%;
 }
 
 .header__text {
