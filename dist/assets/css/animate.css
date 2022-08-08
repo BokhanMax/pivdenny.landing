@@ -1,7 +1,5 @@
 .header__phones {
         position: absolute;
-        width: 506px;
-        height: 704px;
         z-index: 100;
         -webkit-animation: bounce-down 3.6s linear infinite;
         animation: bounce-down 3.6s linear infinite;
@@ -65,4 +63,16 @@
 .blockdeposites__overlaypic:hover, .blocksupport__overlaypic:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.googleplaybutton:hover, .applestorebutton:hover, .features__icon img:hover, .blockicons__icon img:hover {
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+}
+
+.googleplaybutton:hover, .applestorebutton:hover, .features__icon img:hover, .blockicons__icon img:hover {
+     -webkit-transform: scale(1.02);
+     transform: scale(1.02);
 }

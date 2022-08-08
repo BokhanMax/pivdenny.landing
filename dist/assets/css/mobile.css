@@ -240,14 +240,36 @@
     right: 80px;
   }
 
+  .slick-prev, .slick-next {
+    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+  }
+
   .slick-next {
-    right: -47px;
-    bottom: 6%;
+    right: -44px;
+    bottom: 30%;
+  }
+
+  .slick-next:before {
+    content: ">";
+    color: white;
+    position: absolute;
+    top: 17%;
+    left: 42%;
+  }
+
+  .slick-prev:before {
+    content: "<";
+    color: white;
+    position: absolute;
+    top: 22%;
+    right: 35%;
   }
 
   .slick-prev {
-    left: -47px;
-    top: -6%;
+    left: -44px;
+    top: 18%;
   }
 
   footer {
