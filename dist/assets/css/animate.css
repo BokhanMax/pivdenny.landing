@@ -41,11 +41,13 @@
 .blockicons__phoneimg:hover, .blockicons__pin:hover, .blockwallets__phoneimg:hover {
   -webkit-transform: translateX(-7px);
   transform: translateX(-7px);
+  will-change: transform;
 }
 
 .blockwallets__overlaypic:hover, .blockicons__toggle:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  will-change: transform;
 }
 
 .blockdeposites__phoneimg, .blockdeposites__overlaypic, .blocksupport__phoneimg, .blocksupport__overlaypic {
@@ -57,12 +59,14 @@
 
 .blockdeposites__phoneimg:hover, .blocksupport__phoneimg:hover {
   -webkit-transform: translateX(7px);
-  transform: translateX(7px);  
+  transform: translateX(7px);
+  will-change: transform;
 }
 
 .blockdeposites__overlaypic:hover, .blocksupport__overlaypic:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  will-change: transform;
 }
 
 .googleplaybutton:hover, .applestorebutton:hover, .features__icon img:hover, .blockicons__icon img:hover {
@@ -75,4 +79,10 @@
 .googleplaybutton:hover, .applestorebutton:hover, .features__icon img:hover, .blockicons__icon img:hover {
      -webkit-transform: scale(1.02);
      transform: scale(1.02);
+	will-change: transform;
+}
+
+.header__buttons {
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
 }
