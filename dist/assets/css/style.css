@@ -156,7 +156,7 @@ h3 {
 
 .toggletext {
   font-family: "SF Pro Text";
-  font-size: 14px;
+  font-size: 1em;
   line-height: 16px;
   letter-spacing: -0.267013px;
   color: #171C21;
@@ -603,8 +603,8 @@ footer {
   background: #ffffff83;
   position: absolute;
   border-radius: 75px;
-  top: 58px;
-  right: 100px;
+  top: 24px;
+  right: 59px;
 }
 
 .slick-prev, .slick-next {
@@ -619,13 +619,13 @@ footer {
 .slick-next {
   right: -50px;
   position: absolute;
-  bottom: 40%;
+  bottom: 35%;
 }
 
 .slick-prev {
-  left: -45px;
+  left: -50px;
   position: absolute;
-  top: 40%;
+  top: 35%;
 }
 
 .slick-prev:before {
