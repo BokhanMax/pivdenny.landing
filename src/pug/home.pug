@@ -18,7 +18,10 @@ body
             .header__right
                     .header__right-background
                     .header__phones
-                        img(src="./assets/img/header_phones.png", alt="Header Phones")
+                        .header__phone1
+                            img(src="./assets/img/header_phone1.png", alt="Header Phone 1")
+                        .header__phone2
+                            img(src="./assets/img/header_phone2.png", alt="Header Phone 2")
         
         main
             section#features
@@ -79,7 +82,7 @@ body
             
             section#blockicons
                 .blockicons__container 
-                    .blockicons__left
+                    div(data-wow-duration="2s" class='blockicons__left wow animate__animated animate__fadeInLeft')
                         .blockicons__list-item 
                             .blockicons__icon
                                 img(src="./assets/img/blockicons_icon1.png", alt="Block Icons 1" style='width:56px; height:56px;')
@@ -104,7 +107,7 @@ body
                             .blockicons__text 
                                 h3 Управління лімітами 
                                 p Встановити, зняти, змінити – легко!
-                    .blockicons__right 
+                    .blockicons__right.wow.animate__animated.animate__fadeInRight
                         .blockicons__background 
                         .blockicons__phoneimg 
                             img(src="./assets/img/blockicons_phone.png", alt="Phone" style='width:257px; height:522px;')
@@ -122,13 +125,13 @@ body
 
             section#blockdeposites
                 .blockdeposites__container 
-                    .blockdeposites__left 
+                    div(data-wow-duration="2s" class='blockdeposites__left wow animate__animated animate__fadeInLeft')
                         .blockdeposites__background
                         .blockdeposites__phoneimg
                             img(src="./assets/img/blockdeposites_phone.png", alt="Phone Deposit" style='width:248px; height:502px;')
                         .blockdeposites__overlaypic
                             img(src="./assets/img/blockdeposites_overlay.png", alt="Overlay" style='width:320px; height:118px;')
-                    .blockdeposites__right 
+                    .blockdeposites__right.wow.animate__animated.animate__fadeInRight
                         .blockdeposites__text 
                             p.greentext Валютний депозит
                             h2 Купуйте і зберігайте долари та євро вигідно
@@ -136,12 +139,12 @@ body
             
             section#blockwallets
                 .blockwallets__container 
-                    .blockwallets__left 
+                    div(data-wow-duration="2s" class='blockwallets__left wow animate__animated animate__fadeInLeft')
                         .blockwallets__text 
                             p.greentext Електронні гаманці
                             h2 Apple Pay та онлайн покупки
                             p Відтепер ваш iPhone – не тільки улюблений гаджет, але і платіжний інструмент! Додавайте картку до гаманця Apple Pay у Pivdenny Online - і з легкістю розраховуйтесь у магазинах та Інтернеті.
-                    .blockwallets__right 
+                    .blockwallets__right.wow.animate__animated.animate__fadeInRight
                         .blockwallets__background
                         .blockwallets__phoneimg
                             img(src="./assets/img/blockwallets_phone.png", alt="Phone Wallet" style='width:248px; height:502px;')
@@ -150,13 +153,13 @@ body
             
             section#blocksupport
                 .blocksupport__container 
-                    .blocksupport__left 
+                    div(data-wow-duration="2s" class='blocksupport__left wow animate__animated animate__fadeInLeft')
                         .blocksupport__background
                         .blocksupport__phoneimg
                             img(src="./assets/img/blocksupport_phone.png", alt="Online Support" style='width:248px; height:502px;')
                         .blocksupport__overlaypic
                             img(src="./assets/img/blocksupport_overlay.png", alt="Overlay" style='width:320px; height:118px;')
-                    .blocksupport__right 
+                    .blocksupport__right.wow.animate__animated.animate__fadeInRight
                         .blocksupport__text 
                             p.greentext Підтримка онлайн
                             h2 Оперативне вирішення будь-яких питань
@@ -166,7 +169,7 @@ body
                 .connect__container
                     h2 Підключитися легко, як ніколи
                     .connect__blocks
-                        .connect__block
+                        div(data-wow-delay="0.1s" class='connect__block wow animate__animated animate__fadeInUp')
                             .connect__number 
                                 h1.greentext 1
                             .connect__text-left
@@ -174,7 +177,7 @@ body
                                 p Завантажуйте застосунок з Apple Store або Google Play на свій смартфон.
                             .connect__img
                                 img(src="./assets/img/connectblock_left.png", alt="Connect Step 1" style='width:291px; height:316px;')
-                        .connect__block
+                        div(data-wow-delay="0.7s" class='connect__block wow animate__animated animate__fadeInUp')
                             .connect__number 
                                 h1.greentext 2
                             .connect__text-center
@@ -182,7 +185,7 @@ body
                                 p Додайте ваш номер телефону, зареєстрований в банку
                             .connect__img
                                 img(src="./assets/img/connectblock_center.png", alt="Connect Step 2" style='width:291px; height:316px;')
-                        .connect__block
+                        div(data-wow-delay="1.3s" class='connect__block wow animate__animated animate__fadeInUp')
                             .connect__number 
                                 h1.greentext 3
                             .connect__text-right
@@ -240,8 +243,8 @@ body
                         p.description © 2022. Банк «Південний»
                 .footer__right
                     .footer__link 
-                        a(href="https://bank.com.ua")
+                        a.greentext(href="https://bank.com.ua")
                             p Офіційний сайт
-                        a.greentext(href="https://bank.com.ua") Банк «Південний»
+                            p Банк «Південний»
                         .footer__left-descrmob
                             p.description © 2022. Банк «Південний»
