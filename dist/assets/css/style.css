@@ -213,6 +213,11 @@ header {
 .header__buttons {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.header__marketsbuttons {
+  display: flex;
 }
 
 .googleplaybutton {

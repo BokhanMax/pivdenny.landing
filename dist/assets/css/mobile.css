@@ -72,6 +72,10 @@
     top: -10%;
   }
 
+  .header__qrcode {
+    display: none;
+  }
+
   .features__header {
     margin-bottom: 12%;
   }
