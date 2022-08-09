@@ -225,7 +225,7 @@ header {
 }
 
 .header__qrcode {
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .header__right {
@@ -280,11 +280,12 @@ footer {
 }
 
 .footer__logo {
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .footer__buttons {
   display: flex;
+  margin-right: 3%;
 }
 
 .footer__left-descr {
