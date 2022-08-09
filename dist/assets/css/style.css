@@ -155,6 +155,14 @@ h3 {
   color: #00A599;
 }
 
+.bodytext {
+  color: #5B646B;
+}
+
+.bodytext:hover {
+  color: #006E6A;
+}
+
 .toggletext {
   font-family: "SF Pro Text";
   font-size: 1em;
@@ -215,8 +223,16 @@ header {
   position: relative;
 }
 
-.header__phone1, .header__phone2 {
-  bottom: -43%;
+.header__phone1 {
+  position: absolute;
+  top: -21%;
+  animation: jumpTwo 10s infinite linear;
+}
+
+.header__phone2 {
+  position: absolute;
+  top: -20%;
+  animation: jumpThree 10s infinite linear;
 }
 
 .header__right-background {
@@ -570,7 +586,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.connect__container > h2 {
+.connect__header > h2 {
   text-align: center;
   margin-bottom: 6%;
 }
