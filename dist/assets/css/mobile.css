@@ -73,7 +73,12 @@
   }
 
   .header__qrcode {
+    margin-left: 0;
     display: none;
+  }
+
+  .googleplaybutton, applestorebutton {
+    margin-right: 3%;
   }
 
   .features__header {
