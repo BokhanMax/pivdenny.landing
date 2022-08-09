@@ -11,19 +11,31 @@ body
                 .header__buttons
                     .googleplaybutton
                         a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny") 
-                            img(src="./assets/img/googleplaybadge.png", alt="Google Play Market Pivdenny Online" style='width:135px; height:40px;') 
+                            picture
+                                source(type='image/webp' srcset='./assets/img/googleplaybadge.webp')
+                                source(type='image/png' srcset='./assets/img/googleplaybadge.png')
+                                img(src='./assets/img/googleplaybadge.png' alt='Google Play Market Pivdenny Online' style='width:135px; height:40px;')
                     .applestorebutton
                         a(href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk") 
-                            img(src="./assets/img/applestorebadge.png", alt="App Store Pivdenny Online" style='width:120px; height:40px;')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/applestorebadge.webp')
+                                source(type='image/png' srcset='./assets/img/applestorebadge.png')
+                                img(src='./assets/img/applestorebadge.png' alt='Apple Store Pivdenny Online' style='width:120px; height:40px;')
                     .header__qrcode 
                             img(src="./assets/svg/qrcode.svg", alt="QR Code Pivdenny Online" style='width:135px; height:135px;')
             .header__right
                     .header__right-background
                     .header__phones
-                        .header__phone1
-                            img(src="./assets/img/header_phone1.png", alt="Header Phone 1")
+                        .header__phone1 
+                            picture
+                                source(type='image/webp' srcset='./assets/img/header_phone1.webp')
+                                source(type='image/png' srcset='./assets/img/header_phone1.png')
+                                img(src='./assets/img/header_phone1.png' alt='Header Phone 1' style='width:100%;')
                         .header__phone2
-                            img(src="./assets/img/header_phone2.png", alt="Header Phone 2")
+                            picture
+                                source(type='image/webp' srcset='./assets/img/header_phone2.webp')
+                                source(type='image/png' srcset='./assets/img/header_phone2.png')
+                                img(src='./assets/img/header_phone2.png' alt='Header Phone 2' style='width:100%;')
         
         main
             section#features
@@ -34,50 +46,74 @@ body
                         .features__table-left
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon1.png", alt="Features Icon 1" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon1.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon1.png')
+                                        img(src='./assets/img/features_icon1.png' alt='Feature Icon 1' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Грошові перекази
                                     p Перекази і платежі між картками та між рахунками безкоштовно 
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon2.png", alt="Features Icon 2" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon2.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon2.png')
+                                        img(src='./assets/img/features_icon2.png' alt='Feature Icon 2' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Вигідний курс
                                     p Купівля доларів і євро з розміщенням на депозит 
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon3.png", alt="Features Icon 3" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon3.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon3.png')
+                                        img(src='./assets/img/features_icon3.png' alt='Feature Icon 3' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Поповнення мобільного
                                     p Ваші улюблені мобільні оператори в застосунку поповнюються без комісії 
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon4.png", alt="Features Icon 4" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon4.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon4.png')
+                                        img(src='./assets/img/features_icon4.png' alt='Feature Icon 4' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Обмін валют
                                     p Просто у застосунку та БЕЗКОШТОВНО 
                         .features__table-right
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon5.png", alt="Features Icon 5" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon5.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon5.png')
+                                        img(src='./assets/img/features_icon5.png' alt='Feature Icon 5' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Швидке повторення операцій
                                     p Збереження карток для швидкого доступу до повторних операцій 
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon6.png", alt="Features Icon 6" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon6.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon6.png')
+                                        img(src='./assets/img/features_icon6.png' alt='Feature Icon 6' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Безпечний вхід
                                     p Безпечний логін за допомогою біометричних даних 
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon7.png", alt="Features Icon 7" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon7.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon7.png')
+                                        img(src='./assets/img/features_icon7.png' alt='Feature Icon 7' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Повний контроль над операціями 
                                     p Зрозуміла історія операцій за картковими рахунками та квитанції за транзакціями 
                             div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
-                                    img(src="./assets/img/features_icon8.png", alt="Features Icon 8" style='width:56px; height:56px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon8.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon8.png')
+                                        img(src='./assets/img/features_icon8.png' alt='Feature Icon 8' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Нічого не пропускайте
                                     p Push-повідомлення для підтвердження та інформування щодо операцій 
@@ -87,35 +123,50 @@ body
                     div(class='blockicons__left wow animate__animated animate__fadeInLeft')
                         div(class='blockicons__list-item wow animate__animated animate__fadeInUp')
                             .blockicons__icon
-                                img(src="./assets/img/blockicons_icon1.png", alt="Block Icons 1" style='width:56px; height:56px;')
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/blockicons_icon1.webp')
+                                    source(type='image/png' srcset='./assets/img/blockicons_icon1.png')
+                                    img(src='./assets/img/blockicons_icon1.png' alt='Block Icon 1' style='width:56px; height:56px;')
                             .blockicons__text 
                                 h3 Активація картки 
                                 p Швидкий старт користування карткою  
                         div(class='blockicons__list-item wow animate__animated animate__fadeInUp')
                             .blockicons__icon
-                                img(src="./assets/img/blockicons_icon2.png", alt="Block Icons 2" style='width:56px; height:56px;')
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/blockicons_icon2.webp')
+                                    source(type='image/png' srcset='./assets/img/blockicons_icon2.png')
+                                    img(src='./assets/img/blockicons_icon2.png' alt='Block Icon 2' style='width:56px; height:56px;')
                             .blockicons__text 
                                 h3 Встановлення PIN-коду 
                                 p Жодних банкоматів - все Online
                         div(class='blockicons__list-item wow animate__animated animate__fadeInUp')
                             .blockicons__icon
-                                img(src="./assets/img/blockicons_icon3.png", alt="Block Icons 3" style='width:56px; height:56px;')
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/blockicons_icon3.webp')
+                                    source(type='image/png' srcset='./assets/img/blockicons_icon3.png')
+                                    img(src='./assets/img/blockicons_icon3.png' alt='Block Icon 3' style='width:56px; height:56px;')
                             .blockicons__text 
                                 h3 Блокування та розблокування 
                                 p Гроші на рахунку у безпеці
                         div(class='blockicons__list-item wow animate__animated animate__fadeInUp')
                             .blockicons__icon
-                                img(src="./assets/img/blockicons_icon4.png", alt="Block Icons 4" style='width:56px; height:56px;')
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/blockicons_icon4.webp')
+                                    source(type='image/png' srcset='./assets/img/blockicons_icon4.png')
+                                    img(src='./assets/img/blockicons_icon4.png' alt='Block Icon 4' style='width:56px; height:56px;')
                             .blockicons__text 
                                 h3 Управління лімітами 
                                 p Встановити, зняти, змінити – легко!
                     .blockicons__right
                         div(class='blockicons__background wow animate__animated animate__fadeInRight')
-                        div(data-wow-delay="1s" class='blockicons__phoneimg wow animate__animated animate__fadeInRight')
-                            img(src="./assets/img/blockicons_phone.png", alt="Phone" style='width:257px; height:522px;')
-                        div(data-wow-delay="2s" class='blockicons__pin wow animate__animated animate__fadeInRight')
+                        div(data-wow-duration="1s" data-wow-delay="0.3s" class='blockicons__phoneimg wow animate__animated animate__fadeInRight')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/blockicons_phone.webp')
+                                source(type='image/png' srcset='./assets/img/blockicons_phone.png')
+                                img(src='./assets/img/blockicons_phone.png' alt='Phone' style='width:257px; height:522px;')
+                        div(data-wow-duration="1s" data-wow-delay="0.9s" class='blockicons__pin wow animate__animated animate__fadeInRight')
                             img(src="./assets/svg/blockicons_pincode.svg", alt="PIN Code")
-                        div(data-wow-delay="1s" class='blockicons__toggle wow animate__animated animate__fadeInRight')
+                        div(data-wow-duration="1s" data-wow-delay="0.7s" class='blockicons__toggle wow animate__animated animate__fadeInRight')
                             .blockicons__toggle_lock 
                                 img(src="./assets/img/blockicons_lock.png", alt="Lock" style='width:37px; height:35px;')
                             .blockicons__toggle_text 
@@ -129,10 +180,16 @@ body
                 .blockdeposites__container 
                     .blockdeposites__left
                         div(class='blockdeposites__background wow animate__animated animate__fadeInLeft')
-                        div(data-wow-delay="1s" class='blockdeposites__phoneimg wow animate__animated animate__fadeInLeft')
-                            img(src="./assets/img/blockdeposites_phone.png", alt="Phone Deposit" style='width:248px; height:502px;')
-                        div(data-wow-delay="1s" class='blockdeposites__overlaypic wow animate__animated animate__fadeInLeft')
-                            img(src="./assets/img/blockdeposites_overlay.png", alt="Overlay" style='width:320px; height:118px;')
+                        div(data-wow-duration="1s" data-wow-delay="0.3s" class='blockdeposites__phoneimg wow animate__animated animate__fadeInLeft')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/blockdeposites_phone.webp')
+                                source(type='image/png' srcset='./assets/img/blockdeposites_phone.png')
+                                img(src='./assets/img/blockdeposites_phone.png' alt='Phone Deposit' style='width:248px; height:502px;')
+                        div(data-wow-duration="1s" data-wow-delay="0.7s" class='blockdeposites__overlaypic wow animate__animated animate__fadeInLeft')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/blockdeposites_overlay.webp')
+                                source(type='image/png' srcset='./assets/img/blockdeposites_overlay.png')
+                                img(src='./assets/img/blockdeposites_overlay.png' alt='Overlay 1' style='width:320px; height:118px;')
                     div(class='blockdeposites__right wow animate__animated animate__fadeInRight')
                         .blockdeposites__text 
                             p.greentext Валютний депозит
@@ -148,19 +205,31 @@ body
                             p Відтепер ваш iPhone – не тільки улюблений гаджет, але і платіжний інструмент! Додавайте картку до гаманця Apple Pay у Pivdenny Online - і з легкістю розраховуйтесь у магазинах та Інтернеті.
                     .blockwallets__right
                         div(class='blockwallets__background wow animate__animated animate__fadeInRight')
-                        div(data-wow-delay="1s" class='blockwallets__phoneimg wow animate__animated animate__fadeInRight')
-                            img(src="./assets/img/blockwallets_phone.png", alt="Phone Wallet" style='width:248px; height:502px;')
-                        div(data-wow-delay="1s" class='blockwallets__overlaypic wow animate__animated animate__fadeInRight')
-                            img(src="./assets/img/blockwallets_overlay.png", alt="Overlay" style='width:320px; height:118px;')
+                        div(data-wow-duration="1s" data-wow-delay="0.3s" class='blockwallets__phoneimg wow animate__animated animate__fadeInRight')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/blockwallets_phone.webp')
+                                source(type='image/png' srcset='./assets/img/blockwallets_phone.png')
+                                img(src='./assets/img/blockwallets_phone.png' alt='Phone Wallet' style='width:248px; height:502px;')
+                        div(data-wow-duration="1s" data-wow-delay="0.7s" class='blockwallets__overlaypic wow animate__animated animate__fadeInRight')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/blockwallets_overlay.webp')
+                                source(type='image/png' srcset='./assets/img/blockwallets_overlay.png')
+                                img(src='./assets/img/blockwallets_overlay.png' alt='Overlay 2' style='width:320px; height:118px;')
             
             section#blocksupport
                 .blocksupport__container 
                     .blocksupport__left
                         div(class='blocksupport__background wow animate__animated animate__fadeInLeft')
-                        div(data-wow-delay="1s" class='blocksupport__phoneimg wow animate__animated animate__fadeInLeft')
-                            img(src="./assets/img/blocksupport_phone.png", alt="Online Support" style='width:248px; height:502px;')
-                        div(data-wow-delay="1s" class='blocksupport__overlaypic wow animate__animated animate__fadeInLeft')
-                            img(src="./assets/img/blocksupport_overlay.png", alt="Overlay" style='width:320px; height:118px;')
+                        div(data-wow-duration="1s" data-wow-delay="0.3s" class='blocksupport__phoneimg wow animate__animated animate__fadeInLeft')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/blocksupport_phone.webp')
+                                source(type='image/png' srcset='./assets/img/blocksupport_phone.png')
+                                img(src='./assets/img/blocksupport_phone.png' alt='Online Support' style='width:248px; height:502px;')
+                        div(data-wow-duration="1s" data-wow-delay="0.7s" class='blocksupport__overlaypic wow animate__animated animate__fadeInLeft')
+                            picture
+                                source(type='image/webp' srcset='./assets/img/blocksupport_overlay.webp')
+                                source(type='image/png' srcset='./assets/img/blocksupport_overlay.png')
+                                img(src='./assets/img/blocksupport_overlay.png' alt='Overlay 3' style='width:320px; height:118px;')
                     div(class='blocksupport__right wow animate__animated animate__fadeInRight')
                         .blocksupport__text 
                             p.greentext Підтримка онлайн
@@ -179,7 +248,10 @@ body
                                 h3 Встановити
                                 p Завантажуйте застосунок з Apple Store або Google Play на свій смартфон.
                             .connect__img
-                                img(src="./assets/img/connectblock_left.png", alt="Connect Step 1" style='width:291px; height:316px;')
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/connectblock_left.webp')
+                                    source(type='image/png' srcset='./assets/img/connectblock_left.png')
+                                    img(src='./assets/img/connectblock_left.png' alt='Connect Step 1' style='width:291px; height:316px;')
                         div(data-wow-delay="0.3s" class='connect__block wow animate__animated animate__fadeInUp')
                             .connect__number 
                                 h1.greentext 2
@@ -187,7 +259,10 @@ body
                                 h3 Ввести номер
                                 p Додайте ваш номер телефону, зареєстрований в банку
                             .connect__img
-                                img(src="./assets/img/connectblock_center.png", alt="Connect Step 2" style='width:291px; height:316px;')
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/connectblock_center.webp')
+                                    source(type='image/png' srcset='./assets/img/connectblock_center.png')
+                                    img(src='./assets/img/connectblock_center.png' alt='Connect Step 2' style='width:291px; height:316px;')
                         div(data-wow-delay="0.7s" class='connect__block wow animate__animated animate__fadeInUp')
                             .connect__number 
                                 h1.greentext 3
@@ -195,9 +270,12 @@ body
                                 h3 Додати картку
                                 p Додайте активовану платіжну картку банку «Південний»
                             .connect__img
-                                img(src="./assets/img/connectblock_right.png", alt="Connect Step 3" style='width:291px; height:316px;')
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/connectblock_right.webp')
+                                    source(type='image/png' srcset='./assets/img/connectblock_right.png')
+                                    img(src='./assets/img/connectblock_right.png' alt='Connect Step 3' style='width:291px; height:316px;')
           
-        //-
+        //
             section#video
                 .video__container
                     .video__head.wow.animate__animated.animate__fadeInUp
@@ -239,10 +317,16 @@ body
                         .footer__buttons
                             .googleplaybutton
                                 a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny") 
-                                    img(src="./assets/img/googleplaybadge.png", alt="Google Play Market Pivdenny Online" style='width:135px; height:40px;') 
+                                     picture
+                                        source(type='image/webp' srcset='./assets/img/googleplaybadge.webp')
+                                        source(type='image/png' srcset='./assets/img/googleplaybadge.png')
+                                        img(src='./assets/img/googleplaybadge.png' alt='Google Play Market Pivdenny Online' style='width:135px; height:40px;')
                             .applestorebutton
                                 a(href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk") 
-                                    img(src="./assets/img/applestorebadge.png", alt="App Store Pivdenny Online" style='width:120px; height:40px;')
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/applestorebadge.webp')
+                                        source(type='image/png' srcset='./assets/img/applestorebadge.png')
+                                        img(src='./assets/img/applestorebadge.png' alt='Apple Store Pivdenny Online' style='width:120px; height:40px;')
                         .footer_qr 
                             img(src="./assets/svg/qrcode.svg", alt="Pivdenny QR Code" style='width:70px; height:70px;')
                     .footer__left-descr 
