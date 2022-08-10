@@ -8,7 +8,7 @@
     <meta name="description" content="Здійснювати перекази, купувати валюту, поповнювати мобільний та керувати фінансами – легко!">
     <meta property="og:title" content="Pivdenny Online">
     <meta property="og:description" content="Здійснювати перекази, купувати валюту, поповнювати мобільний та керувати фінансами – легко!">
-    <meta property="og:image" content="https://bank.com.ua/pivdennyonline/assets/img/ogimg.png">
+    <meta property="og:image" content="./assets/svg/logo_footer.svg">
     <meta property="og:url" content="https://bank.com.ua/pivdennyonline/">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/mobile.css">
@@ -95,7 +95,7 @@
           <div class="header__text">
             <h3>Завантажуйте новий</h3>
             <h1 class="greentext">Pivdenny Online</h1>
-            <p>Здійснювати перекази, купувати валюту, поповнювати мобільний та керувати фінансами – легко!</p>
+            <p>Здійснювати перекази, обмінювати валюти, поповнювати мобільний та керувати фінансами – легко!</p>
           </div>
           <div class="header__buttons">
             <div class="googleplaybutton"><a href="https://play.google.com/store/apps/details?id=com.bank.pivdenny"> 
@@ -103,7 +103,7 @@
                   <source type="image/webp" srcset="./assets/img/googleplaybadge.webp">
                   <source type="image/png" srcset="./assets/img/googleplaybadge.png"><img src="./assets/img/googleplaybadge.png" alt="Google Play Market Pivdenny Online" style="width:135px; height:40px;">
                 </picture></a></div>
-            <div class="applestorebutton"><a href="http://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk&utm_source=landing&utm_medium=button" target="_blank"> 
+            <div class="applestorebutton"><a href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk"> 
                 <picture>
                   <source type="image/webp" srcset="./assets/img/applestorebadge.webp">
                   <source type="image/png" srcset="./assets/img/applestorebadge.png"><img src="./assets/img/applestorebadge.png" alt="Apple Store Pivdenny Online" style="width:120px; height:40px;">
@@ -157,8 +157,8 @@
                     </picture>
                   </div>
                   <div class="features__text"> 
-                    <h3>Вигідний курс</h3>
-                    <p>Купівля доларів і євро з розміщенням на депозит </p>
+                    <h3>Електронні гаманці</h3>
+                    <p>Легко додавайте картки до Apple Pay </p>
                   </div>
                 </div>
                 <div class="features__list-item wow animate__animated animate__fadeInUp">
@@ -315,32 +315,28 @@
             </div>
           </div>
         </section>
-        <section id="blockdeposites">
-          <div class="blockdeposites__container"> 
-            <div class="blockdeposites__left">
-              <div class="blockdeposites__background wow animate__animated animate__fadeInLeft"></div>
-              <div class="blockdeposites__phoneimg wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                <picture>
-                  <source type="image/webp" srcset="./assets/img/blockdeposites_phone.webp">
-                  <source type="image/png" srcset="./assets/img/blockdeposites_phone.png"><img src="./assets/img/blockdeposites_phone.png" alt="Phone Deposit" style="width:248px; height:502px;">
-                </picture>
-              </div>
-              <div class="blockdeposites__overlaypic wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="0.7s">
-                <picture>
-                  <source type="image/webp" srcset="./assets/img/blockdeposites_overlay.webp">
-                  <source type="image/png" srcset="./assets/img/blockdeposites_overlay.png"><img src="./assets/img/blockdeposites_overlay.png" alt="Overlay 1" style="width:320px; height:118px;">
-                </picture>
-              </div>
-            </div>
-            <div class="blockdeposites__right wow animate__animated animate__fadeInRight">
-              <div class="blockdeposites__text"> 
-                <p class="greentext">Валютний депозит</p>
-                <h2>Купуйте і зберігайте долари та євро вигідно</h2>
-                <p>У застосунку курс вигідніший, ніж у касі банку. Валюта завжди в наявності - жодних черг і незручностей. Ми безпечно зберігатимемо гроші протягом 3-х місяців та ще й віддячимо відсотками.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <!--
+        section#blockdeposites
+            .blockdeposites__container 
+                .blockdeposites__left
+                    div(class='blockdeposites__background wow animate__animated animate__fadeInLeft')
+                    div(data-wow-duration="1s" data-wow-delay="0.3s" class='blockdeposites__phoneimg wow animate__animated animate__fadeInLeft')
+                        picture
+                            source(type='image/webp' srcset='./assets/img/blockdeposites_phone.webp')
+                            source(type='image/png' srcset='./assets/img/blockdeposites_phone.png')
+                            img(src='./assets/img/blockdeposites_phone.png' alt='Phone Deposit' style='width:248px; height:502px;')
+                    div(data-wow-duration="1s" data-wow-delay="0.7s" class='blockdeposites__overlaypic wow animate__animated animate__fadeInLeft')
+                        picture
+                            source(type='image/webp' srcset='./assets/img/blockdeposites_overlay.webp')
+                            source(type='image/png' srcset='./assets/img/blockdeposites_overlay.png')
+                            img(src='./assets/img/blockdeposites_overlay.png' alt='Overlay 1' style='width:320px; height:118px;')
+                div(class='blockdeposites__right wow animate__animated animate__fadeInRight')
+                    .blockdeposites__text 
+                        p.greentext Валютний депозит
+                        h2 Купуйте і зберігайте долари та євро вигідно
+                        p У застосунку курс вигідніший, ніж у касі банку. Валюта завжди в наявності - жодних черг і незручностей. Ми безпечно зберігатимемо гроші протягом 3-х місяців та ще й віддячимо відсотками.
+        
+        -->
         <section id="blockwallets">
           <div class="blockwallets__container"> 
             <div class="blockwallets__left wow animate__animated animate__fadeInLeft">
@@ -488,12 +484,12 @@
             <div class="footer__left-graph">
               <div class="footer__logo"><img src="./assets/svg/logo_footer.svg" alt="Pivdenny Logo Footer" style="width:70px; height:70px;"></div>
               <div class="footer__buttons">
-                <div class="googleplaybutton"><a href="http://play.google.com/store/apps/details?id=com.bank.pivdenny&utm_source=landing&utm_medium=button" target="_blank"> 
+                <div class="googleplaybutton"><a href="https://play.google.com/store/apps/details?id=com.bank.pivdenny"> 
                     <picture>
                       <source type="image/webp" srcset="./assets/img/googleplaybadge.webp">
                       <source type="image/png" srcset="./assets/img/googleplaybadge.png"><img src="./assets/img/googleplaybadge.png" alt="Google Play Market Pivdenny Online" style="width:135px; height:40px;">
                     </picture></a></div>
-                <div class="applestorebutton"><a href="http://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk&utm_source=landing&utm_medium=button" target="_blank"> 
+                <div class="applestorebutton"><a href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk"> 
                     <picture>
                       <source type="image/webp" srcset="./assets/img/applestorebadge.webp">
                       <source type="image/png" srcset="./assets/img/applestorebadge.png"><img src="./assets/img/applestorebadge.png" alt="Apple Store Pivdenny Online" style="width:120px; height:40px;">

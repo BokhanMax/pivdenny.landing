@@ -83,6 +83,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: white;
+}
+
 #pagewrapper {
   margin: 0 auto;
   padding: 0 160px;
@@ -260,6 +264,7 @@ footer {
   background: #F5F6F7;
   padding: 40px 48px 32px 48px;
   border-radius: 12px;
+  margin-bottom: 5%;
 }
 
 .footer__container {
@@ -286,7 +291,7 @@ footer {
 
 .footer__buttons {
   display: flex;
-  margin-right: 3%;
+  margin-right: 4%;
 }
 
 .footer__left-descr {
@@ -329,7 +334,7 @@ footer {
 }
 
 .features__table-right {
-  padding-left: 7%;
+  padding-left: 5%;
 }
 
 .features__list-item {
@@ -607,14 +612,17 @@ footer {
   border-radius: 12px;
   padding: 32px 24px 0;
   width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .connect__text-center, .connect__text-right {
-  margin-bottom: 46px;
+  margin-bottom: 25%;
 }
 
 .connect__text-left {
-  margin-bottom: 21px;
+  margin-bottom: 25%;
 }
 
 .connect__number {

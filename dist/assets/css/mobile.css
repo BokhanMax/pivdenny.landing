@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   h1 {
     font-size: 36px;
     line-height: 44px;
@@ -59,7 +59,7 @@
 
   .header__right-background {
     width: 100%;
-    height: 300px;
+    height: 75%;
     top: 4em;
   }
 
@@ -124,7 +124,7 @@
 
   .blockicons__background {
     position: relative;
-    width: 345px;
+    width: 100%;
     height: 287px;
     border-radius: 18px;
     left: 0;
@@ -132,7 +132,7 @@
   }
 
   .blockicons__phoneimg {
-    left: 105px;
+    left: 25%;
     bottom: -80px;
     right: inherit;
   }
@@ -144,7 +144,7 @@
   }
 
   .blockicons__toggle_text {
-    margin: 0 34px 0 9px;
+    margin: 0 34px 0 20px;
   }
 
   .blockicons__toggle_lock {
@@ -173,6 +173,12 @@
     flex-direction: column-reverse;
   }
 
+  .blockwallets__background {
+    width: 240px;
+    height: 95%;
+    left: 30%;
+  }
+
   .blockwallets__left, .blockwallets__right {
     width: 100%;
   }
@@ -189,8 +195,12 @@
     left: 60px;
   }
 
+  .blockwallets__phoneimg {
+    left: 20%;
+  }
+
   .blockwallets__overlaypic {
-    right: -10px;
+    right: 10%;
   }
 
   .blockwallets__text > p {
@@ -291,6 +301,7 @@
 
   footer {
     padding: 24px 32px;
+    margin-bottom: 3%;
   }
 
   .footer__container {
@@ -323,22 +334,19 @@
     margin: 0 0 32px 0;
   }
 }
-@media screen and (min-width: 501px) and (max-width: 768px) {
+@media screen and (min-width: 651px) and (max-width: 768px) {
   #pagewrapper {
     margin: 0 auto;
     padding: 0 15px;
   }
 
-  .header__buttons {
-    flex-direction: row;
-    flex: 0 0 calc(100% - 10px);
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   h1 {
     font-size: 35px;
     line-height: 40px;
+  }
+
+  .header__right-background {
+    height: 153%;
   }
 
   .header__text > p {
@@ -351,6 +359,10 @@
 
   .header__phone2 {
     top: -4%;
+  }
+
+  .header__qrcode {
+    display: none;
   }
 
   h2 {
@@ -501,7 +513,7 @@
     padding-right: 4%;
   }
 
-  features__table-right {
+  .features__table-right {
     padding-left: 4%;
   }
 
@@ -519,6 +531,10 @@
 
   .footer_qr {
     display: none;
+  }
+
+  footer {
+    margin-bottom: 4%;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1279px) {
@@ -542,6 +558,14 @@
     line-height: 26px;
   }
 
+  .header__qrcode {
+    margin-left: 1%;
+  }
+
+  .googleplaybutton {
+    margin-right: 2%;
+  }
+
   .connectpic {
     width: 100% !important;
     height: auto !important;
@@ -560,7 +584,11 @@
   }
 
   .blockicons__pin {
-    right: -82px;
+    right: -30%;
     bottom: 47px;
+  }
+
+  .blockicons__phoneimg {
+    right: 125px;
   }
 }
