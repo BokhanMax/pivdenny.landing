@@ -1,4 +1,4 @@
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 36px;
     line-height: 44px;
@@ -321,5 +321,242 @@
 
   .footer__logo, .footer__buttons {
     margin: 0 0 32px 0;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  #pagewrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__buttons {
+    flex-direction: row;
+    flex: 0 0 calc(100% - 10px);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .header__text > p {
+    margin-bottom: 40px;
+  }
+
+  .header__phone1 {
+    top: -11%;
+  }
+
+  .header__phone2 {
+    top: -4%;
+  }
+
+  h2 {
+    font-size: 27px;
+    line-height: 27px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  body {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .features__table-right {
+    padding-left: 3%;
+  }
+
+  .blockicons__phoneimg {
+    right: 10px;
+  }
+
+  .blockicons__pin {
+    display: none;
+  }
+
+  .blockicons__toggle {
+    left: 20px;
+  }
+
+  .blockdeposites__right {
+    margin-left: 4%;
+  }
+
+  .blockdeposites__overlaypic {
+    bottom: 7px;
+  }
+
+  .blockwallets__overlaypic {
+    right: 50px;
+  }
+
+  .blockwallets__background {
+    left: 16px;
+  }
+
+  .blocksupport__right {
+    margin-left: 4%;
+  }
+
+  .blocksupport__overlaypic {
+    left: 30px;
+  }
+
+  .connectpic {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .connect__block {
+    padding: 30px 10px 0;
+  }
+
+  .footer__left {
+    width: 77%;
+  }
+
+  .footer__right {
+    width: 23%;
+  }
+
+  .footer__link {
+    font-size: 13px;
+  }
+
+  .footer_qr {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #pagewrapper {
+    margin: 0 auto;
+    padding: 0 17px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 32px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .connect__block {
+    padding: 20px 9px 0;
+  }
+
+  .connectpic {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .blockicons__pin {
+    display: none;
+  }
+
+  .blockicons__phoneimg {
+    right: 43px;
+  }
+
+  .blockwallets__overlaypic {
+    right: 60px;
+  }
+
+  .header__qrcode {
+    display: none;
+  }
+
+  .header__phone1 {
+    top: -14%;
+  }
+
+  .header__phone2 {
+    top: -15%;
+  }
+
+  .header__right-background {
+    width: 150%;
+    height: 170%;
+    top: -25%;
+  }
+
+  .features__table-left {
+    padding-right: 4%;
+  }
+
+  features__table-right {
+    padding-left: 4%;
+  }
+
+  .blockwallets__background {
+    left: 40px;
+  }
+
+  .footer__logo {
+    margin-right: 3%;
+  }
+
+  .footer__buttons {
+    margin-right: 4%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1279px) {
+  #pagewrapper {
+    margin: 0 auto;
+    padding: 0 120px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 25px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .connectpic {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .blockwallets__overlaypic {
+    right: -80px;
+  }
+
+  .blockwallets__background {
+    left: 100px;
+  }
+
+  .header__right-background {
+    width: 470px;
+  }
+
+  .blockicons__pin {
+    right: -82px;
+    bottom: 47px;
   }
 }
