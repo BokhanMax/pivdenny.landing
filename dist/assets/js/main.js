@@ -9,11 +9,16 @@ $(function(){
 	mobileFirst: true,
 	dots: true,
 	responsive: [{
-    breakpoint: 415,
-    settings: {
-      slidesToShow: 3,
-      slidesToScroll: 1
-    }
+	    breakpoint: 415,
+	    settings: {
+	      slidesToShow: 2,
+	      slidesToScroll: 1
+	    },
+	    breakpoint: 768,
+	    settings: {
+	      slidesToShow: 3,
+	      slidesToScroll: 1
+	    }
   }],
 	customPaging: function(slider, i) {
 		return "<div class='square'></div>";
