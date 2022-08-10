@@ -291,7 +291,7 @@ footer {
 
 .footer__buttons {
   display: flex;
-  margin-right: 5%;
+  margin-right: 16px;
 }
 
 .footer__left-descr {
@@ -600,6 +600,7 @@ footer {
 .connect__blocks {
   display: flex;
   justify-content: space-evenly;
+  overflow-y: hidden;
 }
 
 .connect__header > h2 {
