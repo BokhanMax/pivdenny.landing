@@ -398,7 +398,8 @@
   }
 
   .blockdeposites__overlaypic {
-    bottom: 7px;
+    bottom: 3px;
+    left: 19px;
   }
 
   .blockwallets__overlaypic {
@@ -440,7 +441,7 @@
 
   .footer__link {
     font-size: 13px;
-    margin-left: 6px;
+    margin-left: 5px;
     margin-top: 6%;
   }
 
