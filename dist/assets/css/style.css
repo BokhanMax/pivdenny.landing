@@ -220,16 +220,16 @@ header {
   align-items: center;
 }
 
-.header__marketsbuttons {
+.header__markets {
   display: flex;
 }
 
 .googleplaybutton, applestorebutton {
-  margin-right: 4%;
+  margin-right: 17px;
 }
 
 .header__qrcode {
-  margin-left: 3%;
+  margin-left: 17px;
 }
 
 .header__right {
@@ -286,12 +286,12 @@ footer {
 }
 
 .footer__logo {
-  margin-right: 5%;
+  margin-right: 64px;
 }
 
 .footer__buttons {
   display: flex;
-  margin-right: 16px;
+  margin-right: 17px;
 }
 
 .footer__left-descr {
@@ -629,11 +629,11 @@ footer {
 }
 
 .connect__text-center, .connect__text-right {
-  margin-bottom: 25%;
+  margin-bottom: 21px;
 }
 
 .connect__text-left {
-  margin-bottom: 25%;
+  margin-bottom: 21px;
 }
 
 .connect__number {

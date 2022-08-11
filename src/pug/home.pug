@@ -9,20 +9,21 @@ body
                     h1.greentext Pivdenny Online
                     p Здійснювати перекази, обмінювати валюти, поповнювати мобільний та керувати фінансами – легко!
                 .header__buttons
-                    .googleplaybutton
-                        a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny") 
-                            picture
-                                source(type='image/webp' srcset='./assets/img/googleplaybadge.webp')
-                                source(type='image/png' srcset='./assets/img/googleplaybadge.png')
-                                img(src='./assets/img/googleplaybadge.png' alt='Google Play Market Pivdenny Online' style='width:135px; height:40px;')
-                    .applestorebutton
-                        a(href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk") 
-                            picture
-                                source(type='image/webp' srcset='./assets/img/applestorebadge.webp')
-                                source(type='image/png' srcset='./assets/img/applestorebadge.png')
-                                img(src='./assets/img/applestorebadge.png' alt='Apple Store Pivdenny Online' style='width:120px; height:40px;')
+                    .header__markets
+                        .googleplaybutton
+                            a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny&utm_source=landing&utm_medium=button") 
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/googleplaybadge.webp')
+                                    source(type='image/png' srcset='./assets/img/googleplaybadge.png')
+                                    img(src='./assets/img/googleplaybadge.png' alt='Google Play Market Pivdenny Online' style='width:135px; height:40px;')
+                        .applestorebutton
+                            a(href="http://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk&utm_source=landing&utm_medium=button") 
+                                picture
+                                    source(type='image/webp' srcset='./assets/img/applestorebadge.webp')
+                                    source(type='image/png' srcset='./assets/img/applestorebadge.png')
+                                    img(src='./assets/img/applestorebadge.png' alt='Apple Store Pivdenny Online' style='width:120px; height:40px;')
                     .header__qrcode 
-                            img(src="./assets/svg/qrcode.svg", alt="QR Code Pivdenny Online" style='width:135px; height:135px;')
+                            img(src="./assets/img/qrcode.png", alt="QR Code Pivdenny Online" style='width:125px; height:125px;')
             .header__right
                     .header__right-background
                     .header__phones
@@ -197,6 +198,7 @@ body
                             p.greentext Валютний депозит
                             h2 Купуйте і зберігайте долари та євро вигідно
                             p У застосунку курс вигідніший, ніж у касі банку. Валюта завжди в наявності - жодних черг і незручностей. Ми безпечно зберігатимемо гроші протягом 3-х місяців та ще й віддячимо відсотками.
+                            a.greentext(href="https://bank.com.ua/deposits") Дізнатися більше
             
             section#blockwallets
                 .blockwallets__container 
@@ -318,19 +320,19 @@ body
                             img(src="./assets/svg/logo_footer.svg", alt="Pivdenny Logo Footer" style='width:70px; height:70px;')
                         .footer__buttons
                             .googleplaybutton
-                                a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny") 
+                                a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny&utm_source=landing&utm_medium=button") 
                                      picture
                                         source(type='image/webp' srcset='./assets/img/googleplaybadge.webp')
                                         source(type='image/png' srcset='./assets/img/googleplaybadge.png')
                                         img(src='./assets/img/googleplaybadge.png' alt='Google Play Market Pivdenny Online' style='width:135px; height:40px;')
                             .applestorebutton
-                                a(href="https://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk") 
+                                a(href="http://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk&utm_source=landing&utm_medium=button") 
                                     picture
                                         source(type='image/webp' srcset='./assets/img/applestorebadge.webp')
                                         source(type='image/png' srcset='./assets/img/applestorebadge.png')
                                         img(src='./assets/img/applestorebadge.png' alt='Apple Store Pivdenny Online' style='width:120px; height:40px;')
                         .footer_qr 
-                            img(src="./assets/svg/qrcode.svg", alt="Pivdenny QR Code" style='width:70px; height:70px;')
+                            img(src="./assets/img/footer_qrcode.png", alt="Pivdenny QR Code" style='width:70px; height:70px;')
                     .footer__left-descr 
                         p.description © 2022. Банк «Південний»
                 .footer__right

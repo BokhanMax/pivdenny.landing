@@ -434,8 +434,14 @@
     width: 23%;
   }
 
+  .footer__logo {
+    margin-right: 54px;
+  }
+
   .footer__link {
     font-size: 13px;
+    margin-left: 6px;
+    margin-top: 6%;
   }
 
   .footer_qr {
@@ -519,15 +525,19 @@
   }
 
   .footer__logo {
-    margin-right: 3%;
+    margin-right: 64px;
   }
 
   .footer__buttons {
-    margin-right: 16px;
+    margin-right: 17px;
   }
 
   .footer_qr {
     display: none;
+  }
+
+  .footer__link {
+    margin-top: 4%;
   }
 
   footer {
@@ -537,7 +547,7 @@
 @media screen and (min-width: 1025px) and (max-width: 1279px) {
   #pagewrapper {
     margin: 0 auto;
-    padding: 0 120px;
+    padding: 0 110px;
   }
 
   h1 {
@@ -547,7 +557,7 @@
 
   h2 {
     font-size: 30px;
-    line-height: 25px;
+    line-height: 30px;
   }
 
   h3 {
@@ -557,13 +567,17 @@
 
   .header__buttons {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 0 0 calc(100% - 10px);
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .header__markets {
+    display: flex;
   }
 
   .header__qrcode {
     margin-left: 0;
+    margin-top: 25px;
   }
 
   .header__phone1 {
@@ -575,7 +589,7 @@
   }
 
   .googleplaybutton {
-    margin-right: 2%;
+    margin-right: 17px;
   }
 
   .connectpic {
@@ -721,6 +735,10 @@
     width: 100%;
   }
 
+  .blockicons__left {
+    margin-top: 25%;
+  }
+
   .blockicons__right {
     margin-bottom: 45%;
   }
@@ -746,12 +764,12 @@
 
   .blockicons__toggle {
     bottom: 27px;
-    left: 22px;
-    padding: 8px 12px;
+    left: 11px;
+    padding: 8px 8px;
   }
 
   .blockicons__toggle_text {
-    margin: 0 3px 0 11px;
+    margin: 0 7px 0 15px;
   }
 
   .blockicons__toggle_lock {
