@@ -108,7 +108,7 @@ body::-webkit-scrollbar-track {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -116,7 +116,7 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 600;
   font-size: 40px;
   line-height: 49px;
@@ -124,7 +124,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 39px;
@@ -132,7 +132,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
@@ -140,7 +140,7 @@ h3 {
 }
 
 .buttons__text {
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -148,7 +148,7 @@ h3 {
 }
 
 .description {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -168,7 +168,7 @@ h3 {
 }
 
 .toggletext {
-  font-family: "SF Pro Text";
+  font-family: "SF Pro Text", Arial, sans-serif;
   font-size: 1em;
   line-height: 16px;
   letter-spacing: -0.267013px;
