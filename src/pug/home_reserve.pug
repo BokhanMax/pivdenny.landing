@@ -43,8 +43,8 @@ body
                     .features__header
                         h2.wow.animate__animated.animate__fadeInUp Легко отримуйте максимум від банкінгу
                     .features__table 
-                        div(class='features__table-row wow animate__animated animate__fadeInUp')
-                            .features__list-item
+                        .features__table-left
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
                                     picture
                                         source(type='image/webp' srcset='./assets/img/features_icon1.webp')
@@ -52,8 +52,36 @@ body
                                         img(src='./assets/img/features_icon1.png' alt='Feature Icon 1' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Грошові перекази
-                                    p Перекази і платежі між картками та рахунками – безкоштовно
-                            .features__list-item
+                                    p Перекази і платежі між картками та між рахунками безкоштовно 
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
+                                .features__icon
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon2.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon2.png')
+                                        img(src='./assets/img/features_icon2.png' alt='Feature Icon 2' style='width:56px; height:56px;')
+                                .features__text 
+                                    h3 Електронні гаманці
+                                    p Легко додавайте картки до Apple Pay 
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
+                                .features__icon
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon3.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon3.png')
+                                        img(src='./assets/img/features_icon3.png' alt='Feature Icon 3' style='width:56px; height:56px;')
+                                .features__text 
+                                    h3 Поповнення мобільного
+                                    p Ваші улюблені мобільні оператори в застосунку поповнюються без комісії 
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
+                                .features__icon
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/features_icon4.webp')
+                                        source(type='image/png' srcset='./assets/img/features_icon4.png')
+                                        img(src='./assets/img/features_icon4.png' alt='Feature Icon 4' style='width:56px; height:56px;')
+                                .features__text 
+                                    h3 Обмін валют
+                                    p Просто у застосунку та БЕЗКОШТОВНО 
+                        .features__table-right
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
                                     picture
                                         source(type='image/webp' srcset='./assets/img/features_icon5.webp')
@@ -62,17 +90,7 @@ body
                                 .features__text 
                                     h3 Швидке повторення операцій
                                     p Збереження карток для швидкого доступу до повторних операцій 
-                        div(class='features__table-row wow animate__animated animate__fadeInUp')
-                            .features__list-item
-                                .features__icon
-                                    picture
-                                        source(type='image/webp' srcset='./assets/img/features_icon2.webp')
-                                        source(type='image/png' srcset='./assets/img/features_icon2.png')
-                                        img(src='./assets/img/features_icon2.png' alt='Feature Icon 2' style='width:56px; height:56px;')
-                                .features__text 
-                                    h3 Електронні гаманці
-                                    p Легко додавайте картки до Apple Pay
-                            .features__list-item
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
                                     picture
                                         source(type='image/webp' srcset='./assets/img/features_icon6.webp')
@@ -80,18 +98,8 @@ body
                                         img(src='./assets/img/features_icon6.png' alt='Feature Icon 6' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Безпечний вхід
-                                    p Логін за допомогою біометричних даних 
-                        div(class='features__table-row wow animate__animated animate__fadeInUp')
-                            .features__list-item
-                                .features__icon
-                                    picture
-                                        source(type='image/webp' srcset='./assets/img/features_icon3.webp')
-                                        source(type='image/png' srcset='./assets/img/features_icon3.png')
-                                        img(src='./assets/img/features_icon3.png' alt='Feature Icon 3' style='width:56px; height:56px;')
-                                .features__text 
-                                    h3 Поповнення мобільного
-                                    p Номери ваших улюблених мобільних операторів у застосунку поповнюються без комісії 
-                            .features__list-item
+                                    p Безпечний логін за допомогою біометричних даних 
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
                                     picture
                                         source(type='image/webp' srcset='./assets/img/features_icon7.webp')
@@ -99,18 +107,8 @@ body
                                         img(src='./assets/img/features_icon7.png' alt='Feature Icon 7' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Повний контроль над операціями 
-                                    p Зрозуміла історія операцій за картковими рахунками та квитанції за транзакціями 
-                        div(class='features__table-row wow animate__animated animate__fadeInUp')
-                            .features__list-item
-                                .features__icon
-                                    picture
-                                        source(type='image/webp' srcset='./assets/img/features_icon4.webp')
-                                        source(type='image/png' srcset='./assets/img/features_icon4.png')
-                                        img(src='./assets/img/features_icon4.png' alt='Feature Icon 4' style='width:56px; height:56px;')
-                                .features__text 
-                                    h3 Обмін валют
-                                    p Просто у застосунку та безкоштовно 
-                            .features__list-item
+                                    p Зрозуміла історія операцій за картковими рахунками та квитанції за транзакціями 
+                            div(class='features__list-item wow animate__animated animate__fadeInUp')
                                 .features__icon
                                     picture
                                         source(type='image/webp' srcset='./assets/img/features_icon8.webp')
@@ -118,7 +116,7 @@ body
                                         img(src='./assets/img/features_icon8.png' alt='Feature Icon 8' style='width:56px; height:56px;')
                                 .features__text 
                                     h3 Нічого не пропускайте
-                                    p Push-повідомлення для підтвердження та інформування про операції 
+                                    p Push-повідомлення для підтвердження та інформування щодо операцій 
             
             section#blockicons
                 .blockicons__container 
@@ -253,7 +251,7 @@ body
                                 picture
                                     source(type='image/webp' srcset='./assets/img/connectblock_left.webp')
                                     source(type='image/png' srcset='./assets/img/connectblock_left.png')
-                                    img(class='connectpic' src='./assets/img/connectblock_left.png' alt='Connect Step 1')
+                                    img(class='connectpic' src='./assets/img/connectblock_left.png' alt='Connect Step 1' style='width:291px; height:316px;')
                         div(data-wow-delay="0.3s" class='connect__block wow animate__animated animate__fadeInUp')
                             .connect__number 
                                 h1.greentext 2
@@ -264,7 +262,7 @@ body
                                 picture
                                     source(type='image/webp' srcset='./assets/img/connectblock_center.webp')
                                     source(type='image/png' srcset='./assets/img/connectblock_center.png')
-                                    img(class='connectpic' src='./assets/img/connectblock_center.png' alt='Connect Step 2')
+                                    img(class='connectpic' src='./assets/img/connectblock_center.png' alt='Connect Step 2' style='width:291px; height:316px;')
                         div(data-wow-delay="0.7s" class='connect__block wow animate__animated animate__fadeInUp')
                             .connect__number 
                                 h1.greentext 3
@@ -275,7 +273,7 @@ body
                                 picture
                                     source(type='image/webp' srcset='./assets/img/connectblock_right.webp')
                                     source(type='image/png' srcset='./assets/img/connectblock_right.png')
-                                    img(class='connectpic' src='./assets/img/connectblock_right.png' alt='Connect Step 3')
+                                    img(class='connectpic' src='./assets/img/connectblock_right.png' alt='Connect Step 3' style='width:291px; height:316px;')
           
         //
             section#video
@@ -336,6 +334,6 @@ body
                 .footer__right
                     .footer__link 
                         a.greentext(href="https://bank.com.ua")
-                            p.bodytext Офіційний сайт #[br] #[span(class='greentext') Банк «Південний»]
+                            p.bodytext Офіційний сайт #[br] Банк «Південний»
                         .footer__left-descrmob
                             p.description © 2022. Банк «Південний»

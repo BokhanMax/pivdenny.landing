@@ -316,11 +316,11 @@ footer {
 
 .features__header {
   text-align: center;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 
 .features__table {
-  display: flex;
+  display: block;
 }
 
 .features__table-left, .features__table-right {
@@ -337,10 +337,20 @@ footer {
   padding-left: 5%;
 }
 
+.features__table-row {
+  width: 100%;
+  display: flex;
+}
+
 .features__list-item {
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 15%;
+  width: 50%;
+  margin-bottom: 7%;
+  padding: 0 5% 0 0;
+}
+
+.features__list-item:nth-child(even) {
+  padding: 0 0 0 5%;
 }
 
 .features__table-left > .features__list-item:first-child {
@@ -611,7 +621,7 @@ footer {
 .connect__block {
   background: #F5F6F7;
   border-radius: 12px;
-  padding: 32px 24px 0;
+  padding: 32px 24px 0px 24px;
   width: 32%;
   display: flex;
   flex-direction: column;
@@ -628,6 +638,11 @@ footer {
 
 .connect__number {
   margin-bottom: 3%;
+}
+
+.connectpic {
+  width: 100%;
+  display: flex;
 }
 
 #video {
