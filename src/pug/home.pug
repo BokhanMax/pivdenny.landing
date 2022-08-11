@@ -1,42 +1,49 @@
 body
     #pagewrapper 
         header 
-            .header__left
+            .header__top
                 .header__logo
                     img(src="./assets/svg/logo_header.svg", alt="Pivdenny Online Logo Header")
-                .header__text
-                    h3 Завантажуйте новий
-                    h1.greentext Pivdenny Online
-                    p Здійснювати перекази, обмінювати валюти, поповнювати мобільний та керувати фінансами – легко!
-                .header__buttons
-                    .header__markets
-                        .googleplaybutton
-                            a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny&utm_source=landing&utm_medium=button") 
+                .header__switcher
+                    button.header__switcher_button UA  <i class="arrow down"></i>
+                        .header__switcher_content
+                            a(href='https://bank.com.ua/pivdennyonline/ru/') RU
+                            a(href='https://bank.com.ua/pivdennyonline/en/') EN
+            .header__wrapper
+                .header__left
+                    .header__text
+                        h3 Завантажуйте новий
+                        h1.greentext Pivdenny Online
+                        p Здійснювати перекази, обмінювати валюти, поповнювати мобільний та керувати фінансами – легко!
+                    .header__buttons
+                        .header__markets
+                            .googleplaybutton
+                                a(href="https://play.google.com/store/apps/details?id=com.bank.pivdenny&utm_source=landing&utm_medium=button") 
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/googleplaybadge.webp')
+                                        source(type='image/png' srcset='./assets/img/googleplaybadge.png')
+                                        img(src='./assets/img/googleplaybadge.png' alt='Google Play Market Pivdenny Online' style='width:135px; height:40px;')
+                            .applestorebutton
+                                a(href="http://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk&utm_source=landing&utm_medium=button") 
+                                    picture
+                                        source(type='image/webp' srcset='./assets/img/applestorebadge.webp')
+                                        source(type='image/png' srcset='./assets/img/applestorebadge.png')
+                                        img(src='./assets/img/applestorebadge.png' alt='Apple Store Pivdenny Online' style='width:120px; height:40px;')
+                        .header__qrcode 
+                                img(src="./assets/img/qrcode.png", alt="QR Code Pivdenny Online" style='width:125px; height:125px;')
+                .header__right
+                        .header__right-background
+                        .header__phones
+                            .header__phone1 
                                 picture
-                                    source(type='image/webp' srcset='./assets/img/googleplaybadge.webp')
-                                    source(type='image/png' srcset='./assets/img/googleplaybadge.png')
-                                    img(src='./assets/img/googleplaybadge.png' alt='Google Play Market Pivdenny Online' style='width:135px; height:40px;')
-                        .applestorebutton
-                            a(href="http://apps.apple.com/ua/app/pivdenny-online/id1550250615?l=uk&utm_source=landing&utm_medium=button") 
+                                    source(type='image/webp' srcset='./assets/img/header_phone1.webp')
+                                    source(type='image/png' srcset='./assets/img/header_phone1.png')
+                                    img(src='./assets/img/header_phone1.png' alt='Header Phone 1' style='width:100%;')
+                            .header__phone2
                                 picture
-                                    source(type='image/webp' srcset='./assets/img/applestorebadge.webp')
-                                    source(type='image/png' srcset='./assets/img/applestorebadge.png')
-                                    img(src='./assets/img/applestorebadge.png' alt='Apple Store Pivdenny Online' style='width:120px; height:40px;')
-                    .header__qrcode 
-                            img(src="./assets/img/qrcode.png", alt="QR Code Pivdenny Online" style='width:125px; height:125px;')
-            .header__right
-                    .header__right-background
-                    .header__phones
-                        .header__phone1 
-                            picture
-                                source(type='image/webp' srcset='./assets/img/header_phone1.webp')
-                                source(type='image/png' srcset='./assets/img/header_phone1.png')
-                                img(src='./assets/img/header_phone1.png' alt='Header Phone 1' style='width:100%;')
-                        .header__phone2
-                            picture
-                                source(type='image/webp' srcset='./assets/img/header_phone2.webp')
-                                source(type='image/png' srcset='./assets/img/header_phone2.png')
-                                img(src='./assets/img/header_phone2.png' alt='Header Phone 2' style='width:100%;')
+                                    source(type='image/webp' srcset='./assets/img/header_phone2.webp')
+                                    source(type='image/png' srcset='./assets/img/header_phone2.png')
+                                    img(src='./assets/img/header_phone2.png' alt='Header Phone 2' style='width:100%;')
         
         main
             section#features

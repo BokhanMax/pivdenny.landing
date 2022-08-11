@@ -28,6 +28,14 @@
     padding: 0 15px;
   }
 
+  .header__wrapper {
+    flex-direction: column;
+  }
+
+  .header__top {
+    flex-direction: row;
+  }
+
   .header__left, .header__right {
     width: 100%;
   }
@@ -37,7 +45,12 @@
   }
 
   .header__logo {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    width: 52%;
+  }
+
+  .header__switcher {
+    width: 48%;
     width: 52%;
   }
 
@@ -55,6 +68,7 @@
 
   .header__text {
     margin-right: 0;
+    margin-top: 8%;
   }
 
   .header__right-background {
@@ -603,11 +617,12 @@
   }
 
   .blockwallets__background {
-    left: 100px;
+    left: 255px;
   }
 
   .header__right-background {
     width: 470px;
+    height: 870px;
   }
 
   .blockicons__pin {
@@ -960,5 +975,15 @@
 
   .footer__logo, .footer__buttons {
     margin: 0 0 32px 0;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .header__right-background {
+    height: 857px;
+    width: 523px;
+  }
+
+  .blockwallets__phoneimg {
+    margin-right: 10%;
   }
 }
